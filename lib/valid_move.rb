@@ -2,7 +2,7 @@
 
 require "pry"
 
-def valid_move?(board, position)
+def valid_move?(board, spot)
   
   spot = position.to_i - 1
    #binding.pry
