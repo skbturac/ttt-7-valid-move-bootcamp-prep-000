@@ -4,9 +4,9 @@ require "pry"
 
 def valid_move?(board, position)
   
-  position = position.to_i - 1
+  spot = position.to_i - 1
    #binding.pry
-  if !position_taken?(board, spot) && spot.between?(-1,9) 
+  if !position_taken?(board, position) && spot.between?(-1,9) 
     
     true
     
