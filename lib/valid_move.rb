@@ -27,4 +27,4 @@ def position_taken?(board, position)
   
 end  
 
-spot = binding.pry
+put binding.pry(spot)
