@@ -3,7 +3,7 @@
 def valid_move?(board, position)
   
   spot = position.to_i - 1 
-  if !position_taken?(board, spot) && spot.between?(-1,10) 
+  if !position_taken?(board, spot) && spot.between?(-1,9) 
     
     true
     
