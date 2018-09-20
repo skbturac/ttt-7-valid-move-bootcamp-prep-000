@@ -1,4 +1,5 @@
 # code your #valid_move? method here
+require "pry"
 
 def valid_move?(board, position)
   
